@@ -1,12 +1,17 @@
 # 8051-assembly
 -----------------------------
 
-This repo documents all the code that I wrote for the 8051 microcontroller.
-Here are a list of the code files, along with a short description:
-1. chess_clock_time.asm - Implements a digital chess clock. Utilizes interrupts and timers, along with some GPIO pin
-   manipulations. The 8051 MCU interacts with a Hitachi HD44780 display driver to control a 16x2 LCD monochrome display.
+\[update from the last commit\]
+This repo ended up being a source for this particular project only. This project is exponentially more complex, compared to the other things in the course(and even this isn't particularly complex).
 
--------------------
-### TODO
+Files in the repo
 
-Add the other projects here.
+```bash
+$ tree
+.
+├── chess_clock_demo.mp4 # Demo video
+├── chess_clock_time.asm # The actual code
+└── README.md
+```
+
+I am not documenting anything here, because there are comments in the assembly file. However, while reading this over an year later, some things feel alien. So I will work on improving this aspect of the program.
